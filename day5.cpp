@@ -4,7 +4,6 @@ using namespace std;
 class Solution {
   public:
     int countTriplets(vector<int> nums) {
-        // Code here.
         int n = nums.size();
         int count = 0;
 
