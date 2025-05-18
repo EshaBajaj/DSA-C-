@@ -7,4 +7,16 @@ void LeftRotate (vector<int> &arr,int n){
     return arr;
 }
 
-//LeftRotate by D 
+//LeftRotate by D indexes
+int d,n;
+ d=d%n;
+ int temp[d];
+ for(int i=0; i<d; ++i){
+    arr[i]=temp[i];
+ }
+ for(int i=d; i<n; ++i){
+    a[i-d]=a[i];
+ }
+ for(int i=i-d; i<n; ++i){
+    a[i]=temp[i-(n-d)];
+ }
