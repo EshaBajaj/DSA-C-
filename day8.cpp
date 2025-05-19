@@ -8,5 +8,3 @@ class Matrix(int m, int n){
         cout << endl;
     }
 }
-
-//
