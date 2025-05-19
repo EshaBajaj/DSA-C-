@@ -20,3 +20,12 @@ void rotate90(vector<vector<int>>& mat) {
     for (int i = 0; i < n; i++)
         reverse(mat[i].begin(), mat[i].end());  // Replace with manual reversal if needed
 }
+//OR  Step 2: Reverse each row
+for (int i = 0; i < n; i++) {
+    int left = 0, right = n - 1;
+    while (left < right) {
+        swap(mat[i][left], mat[i][right]);
+        left++;
+        right--;
+    }
+}
