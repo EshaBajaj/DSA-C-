@@ -12,8 +12,16 @@ void rowColumnSum(int matrix[3][3]) {
             rowSum += matrix[i][j];
         }
         cout << "Row " << i << ": " << rowSum << endl;
-
-
+    }
+   // Column Sum
+    cout << "\nColumn Sums:";
+    for (int j = 0; j < cols; j++) {
+        int colSum = 0;
+        for (int i = 0; i < rows; i++) {
+            colSum += matrix[i][j];
+        }
+        cout << "Column " << j << ": " << colSum << endl;
+    }
 
 
 int main() {
