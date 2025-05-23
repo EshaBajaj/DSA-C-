@@ -13,7 +13,8 @@ void rowColumnSum(int matrix[3][3]) {
         }
         cout << "Row " << i << ": " << rowSum << endl;
 
-}
+
+
 
 int main() {
     int matrix[3][3] = {
