@@ -11,7 +11,16 @@ int main(){
         if(price[i] < minPrice){
             minPrice=price;
         }
-        
+        int profit = prices[i] - minPrice;
+
+        if (profit > maxProfit) {
+            maxProfit = profit;
+        }
     }
 
+    cout << "Maximum Profit: " << maxProfit << endl;
+
+return 0;
 }
+
+
