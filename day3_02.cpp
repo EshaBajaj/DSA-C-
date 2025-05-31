@@ -11,9 +11,9 @@ class Solution {
     
             int leftSum = 0;
                 for (int i = 0; i < arr.size(); i++) {
-                total -= arr[i]; 
+                int rsum=total-leftSum-arr[i];
     
-                if (leftSum == total) {
+                if (leftSum == rsum) {
                     return i;
                 }
     
