@@ -1,4 +1,4 @@
-lass Solution {
+class Solution {
   public:
     vector<int> rowSum(vector<vector<int>>& mat) {
         vector<int>result;
