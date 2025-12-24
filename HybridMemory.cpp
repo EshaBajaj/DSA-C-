@@ -4,7 +4,7 @@
 void memory_leak() {
     int *ptr = (int*)malloc(10 * sizeof(int));
     ptr[0] = 42;
-    // Forgot to free - MEMORY LEAK
+   
 }
 
 int main() {
